@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body{
+ font-family: 'Open Sans', sans-serif;
+}
+/* section-1 */
+.section-1{
+ background: #a88c95;
+}
+.first-div{
+ display: flex;
+ justify-content: space-between;
+}
+
+.lists{
+ align-content: center;
+ padding: 1.2rem;
+}
+.forms{
+ display: block;
+ position: relative;
+}
+
+form{
+  margin: 1.2rem;
+}
+.lists .li-item{
+ list-style-type: none;
+ display: inline-block;
+
+}
+.a-ltem{
+ background: rgb(252, 250, 250,.6);
+ display: inline-block;
+ padding: .2rem;
+ height: 2.5rem;
+ width: 2.5rem;
+ text-align: center;
+ align-content: center;
+ font-size: 1.5rem;
+ border-radius: 50%;
+ color: rgb(104, 83, 122);
+}
+#search{
+ background: white;
+ outline: none;
+ border:none;
+ border-radius: .2rem 0 0  .2rem;
+ font-size: 1rem;
+ width: 15rem;
+ height: 2.5rem;
+ margin: 0;
+ padding: .3rem;
+ color: rgb(156, 154, 154);
+}
+.submit-btn{
+ height: 2.5rem;
+ position: absolute;
+ border-radius: 0 .2rem .2rem 0;
+ width: 4rem;
+ color: #fff;
+ font-size: .6rem;
+ background: #97455f;
+ outline: none;
+ border: none;
+}
+
+
+/* section-2 */
+
+
+/* section-3 */
+
+.section-2{
+
+ background: #97455f;
+}
+.nav-link{
+ font-size: 1.3rem;
+ text-transform: uppercase;
+}
+.home{
+  background: #6a3144;
+}
+
+/* section-4 */
+/* .section-4{
+ background-image: url("./img/bg-1.png");
+ background-repeat: no-repeat;
+ background-position: center center;
+ height: 40vh;
+} */
+.imgs{
+ background-image: url("./img/bg-1.png");
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 48vh;
+}
+/* .imgs img{
+ width: 100%;
+ height: 45vh;
+
+} */
+
+
+/* section-5 */
+.test-portion p{
+  font-size: 1.3rem;
+  width: 30rem;
+}
+
+/* Service section*/
+.service{
+ background: #f5f5f5;
+ height: 60rem;
+}
+.our-service{
+  padding: 1.5rem;
+}
+.service-header{
+  color: #6a3144;
+  font-weight: 700;
+  font-size: 48pt;
+}
+.service-p{
+  color:#333333;
+  font-size: 18pt;
+}
+.grids{
+ display: grid;
+ grid-template-columns: auto auto auto;
+
+}
+
+.items{
+  position: relative;
+}
+.num{
+  height: 350px;
+  width: 400px;
+  font-size: 100px;
+  font-weight: bold;
+  position: relative;
+  color:rgb(82, 56, 39,.15);
+  z-index: 1;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  
+}
+.details{
+  position: absolute;
+  padding: 4rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  top: 3rem;
+  left: 3rem;
+  right: 3rem;
+  z-index: 2;
+}
+.details h3{
+  color: #523827;
+  padding-left: .7rem;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+}
+.items:hover{
+  background:#ffff;
+  box-shadow: rgb(138, 137, 137) .5rem 
+  .5rem 3rem;
+  transition: .7s;
+}
+
+
+/* Quick contact section*/
+
+.quick-contact{
+  background: rgb(100, 100, 100);
+}
+.second-img{
+  background-image: url("./img/quick.png");
+  height: 35rem;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+h4{
+  font-size: 36pt;
+  color:#fff;
+}
+
+/* .quick-form{
+  background: red;
+  height: 30rem;
+} */
+
+.first-line, .second-line{
+  display: flex;
+  justify-content: space-between;
+}
+.first-line input , .second-line input, .third-line input{
+  background: rgb(255, 255, 255);
+  outline: 0;
+  border:0;
+  width: 49%;
+  margin: 0;
+  display: block;
+  margin: .5rem;
+  padding: .5rem;
+  border-radius: .2rem;
+}
+.third-line{
+    display: flex;
+
+}
+.third-line input{
+  width: 100%;
+  padding:.5rem .5rem 6rem;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+.contact-btn{
+  background: #97455f;
+  padding: .25rem;
+  width: 15rem;
+  border-radius: 2rem;
+  font-size: 21pt;
+  font-weight: 400;
+  color: #fff;
+  margin: .7rem;
+}
+
+
+/* last section*/
+.last-section{
+  background: rgb(202, 199, 199);
+}
+.texts{
+  text-align: center;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.last-section img{
+  display: block;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.learn , .with{
+  font-weight: 900;
+  font-size: 20pt;
+}
+.learn{
+  color: #565656;
+}
+.with{
+  color: #31a5e1;
+}
+h6{
+  font-size: 15pt;
+  font-weight: 600;
+}
+.rights{
+  font-size: 10pt;
+}
